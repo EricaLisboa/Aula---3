@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas dos Alunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .aprovado {
+            color: green;
+            font-weight: bold;
+        }
+
+        .reprovado {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Notas dos Alunos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Aluno</th>
+                <th>Web1</th>
+                <th>Web2</th>
+                <th>Projeto</th>
+                <th>Média</th>
+                <th>Situação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Costa</td>
+                <td>8.5</td>
+                <td>9.0</td>
+                <td>9.5</td>
+                <td>9.0</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>
+            <tr>
+                <td>Bruno Lima</td>
+                <td>7.0</td>
+                <td>8.0</td>
+                <td>7.5</td>
+                <td>7.5</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>
+            <tr>
+                <td>Carla Souza</td>
+                <td>9.0</td>
+                <td>8.5</td>
+                <td>10.0</td>
+                <td>9.2</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>
+            <tr>
+                <td>Diego Alves</td>
+                <td>6.0</td>
+                <td>5.5</td>
+                <td>6.5</td>
+                <td>6.0</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <td>Elaine Rocha</td>
+                <td>7.5</td>
+                <td>7.0</td>
+                <td>8.0</td>
+                <td>7.5</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>
+            <tr>
+                <td>Fábio Teixeira</td>
+                <td>5.0</td>
+                <td>6.0</td>
+                <td>5.5</td>
+                <td>5.5</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+
